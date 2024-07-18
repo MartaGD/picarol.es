@@ -2,6 +2,7 @@ nav {
     position: fixed;
     top: 0;
     width: 100%;
+    display: block;
   }
 
 ul {
@@ -28,3 +29,113 @@ ul {
   li a:hover {
     background-color: #111;
   }
+
+  .boton{
+    justify-content: center;
+    padding: 2%;
+    min-width: 29%;
+    border-radius: 0.5rem;
+    background-color: beige;
+    margin: 2%;
+    display: inline-flex;
+    vertical-align: middle;
+    border-color: aqua;
+    border-width: 2px;
+    text-decoration: none;
+    color: #333;
+}
+
+.circle {
+    border-radius: 50%;
+  }
+  
+  .arch {
+    overflow: hidden;
+    height: 250px;
+    width: 250px;
+    border-top-left-radius: 40%;
+    border-top-right-radius: 40%;
+    margin: 1%;
+  }
+  
+  .rows {
+    display: inline-flex;
+    width: 100%;
+    justify-content: center;
+    padding: 5%;
+  }
+
+  .bckgr{
+    background-image: url("./media/background.png");
+    background-size: cover;
+  }
+
+  .color1{
+    background-color: #A4E69B;
+  }
+
+  .grey {
+    background-color: grey;
+    display: inline-flex;
+    width: 100%;
+    justify-content: center;
+  }
+
+  .center-content{
+    display: grid;
+    justify-items: center;
+    width: 60%;
+  }
+
+  .text_img {
+    display: inline-flex;
+    width: 60%;
+    justify-content: center;
+  }
+
+  .left {
+    display: flex;
+    margin-right: 20%;
+  }
+
+  .right {
+    display: flex;
+    margin-left: 20%;
+  }
+
+  .center{
+    display: inline-flex;
+  }
+
+  .font-lettering {
+    font-family: cursive;
+  }
+
+  .icon-margin-rgt{
+    margin-right: 4%;
+  }
+/*
+  .row-img-box-rgt{
+    display: inline-flex;
+    justify-self: right;
+    flex-wrap: wrap;
+  }
+
+  .row-img-box-lft{
+    display: inline-flex;
+    justify-self: left;
+    flex-wrap: wrap;
+  }
+
+  
+  .row-text-box-rgt{
+    display: inline-flex;
+    justify-self: right;
+    flex-wrap: wrap;
+  }
+
+  .row-text-box-lft{
+    display: inline-flex;
+    justify-self: left;
+    flex-wrap: wrap;
+  }*/
