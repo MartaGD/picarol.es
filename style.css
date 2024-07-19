@@ -1,3 +1,26 @@
+.sacramento-regular {
+  font-family: "Sacramento", cursive;
+  font-weight: 400;
+  font-style: normal;
+  font-size: xx-large;
+  margin-bottom: -1rem;
+}
+
+.rubik {
+  font-family: "Rubik", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.text {
+  font-family: "Rubik", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-size: larger;
+}
+
 nav {
     position: fixed;
     top: 0;
@@ -32,7 +55,6 @@ ul {
 
   .boton{
     justify-content: center;
-    padding: 2%;
     min-width: 29%;
     border-radius: 0.5rem;
     background-color: beige;
@@ -43,6 +65,10 @@ ul {
     border-width: 2px;
     text-decoration: none;
     color: #333;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
 }
 
 .circle {
@@ -76,39 +102,38 @@ ul {
 
   .grey {
     background-color: grey;
-    display: inline-flex;
-    width: 100%;
-    justify-content: center;
   }
 
   .center-content{
     display: grid;
     justify-items: center;
-    width: 60%;
   }
 
   .text_img {
-    display: inline-flex;
-    width: 60%;
-    justify-content: center;
+    display: inline-grid;
+    width: 62%;
+    /*justify-content: center;*/
   }
 
-  .left {
-    display: flex;
-    margin-right: 20%;
-  }
-
-  .right {
-    display: flex;
-    margin-left: 20%;
-  }
 
   .center{
-    display: inline-flex;
+    display: inline-grid;
   }
 
-  .font-lettering {
-    font-family: cursive;
+  @media only screen and (min-width: 992px) {
+    /* For desktop: */
+      .center{display: inline-flex;}
+      .text_img { display: inline-flex;}
+      .right { margin-left: 8rem;}
+      iframe {width:600px; height:340px;}
+    
+  }
+
+  .font-deco {
+    font-family: "Rubik", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
   }
 
   .icon-margin-rgt{
