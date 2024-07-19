@@ -4,6 +4,7 @@
   font-style: normal;
   font-size: xx-large;
   margin-bottom: -1rem;
+  
 }
 
 .rubik {
@@ -89,10 +90,16 @@ ul {
     width: 100%;
     justify-content: center;
     padding: 5%;
+    color: white;
   }
 
-  .bckgr{
+  .bckgr1{
     background-image: url("./media/background.png");
+    background-size: cover;
+  }
+
+  .bckgr2{
+    background-image: url("./media/background2.png");
     background-size: cover;
   }
 
@@ -100,8 +107,8 @@ ul {
     background-color: #A4E69B;
   }
 
-  .grey {
-    background-color: grey;
+  .color2 {
+    background-color: #6E8898;
   }
 
   .center-content{
@@ -129,12 +136,6 @@ ul {
     
   }
 
-  .font-deco {
-    font-family: "Rubik", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: 400;
-    font-style: normal;
-  }
 
   .icon-margin-rgt{
     margin-right: 4%;
