@@ -138,7 +138,7 @@ ul {
     /* For desktop: */
       .center{display: inline-flex;}
       .text_img { display: inline-flex;}
-      .right { margin-left: 8rem;}
+      .right { margin-left: 3rem;}
       iframe {width:600px; height:340px;}
     
   }
@@ -147,28 +147,17 @@ ul {
   .icon-margin-rgt{
     margin-right: 4%;
   }
-/*
-  .row-img-box-rgt{
-    display: inline-flex;
-    justify-self: right;
-    flex-wrap: wrap;
+
+  .imagen {
+    align-content: center;
   }
 
-  .row-img-box-lft{
-    display: inline-flex;
-    justify-self: left;
-    flex-wrap: wrap;
+  .s-img {
+    width: 15rem;
+    height: 15rem;
   }
 
-  
-  .row-text-box-rgt{
-    display: inline-flex;
-    justify-self: right;
-    flex-wrap: wrap;
+  .l-img {
+    width: 19rem;
+    height: 19rem;
   }
-
-  .row-text-box-lft{
-    display: inline-flex;
-    justify-self: left;
-    flex-wrap: wrap;
-  }*/
