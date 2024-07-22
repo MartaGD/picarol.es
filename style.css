@@ -120,7 +120,6 @@ ul {
   .text_img {
     display: inline-grid;
     width: 62%;
-    /*justify-content: center;*/
   }
 
   .toTheTop {
@@ -132,6 +131,7 @@ ul {
 
   .center{
     display: inline-grid;
+    justify-items: inherit;
   }
 
   .icon-margin-rgt{
@@ -150,6 +150,15 @@ ul {
   .l-img {
     width: 19rem;
     height: 19rem;
+  }
+
+  .sign {
+    font-family: "Rubik", sans-serif;
+    font-style: normal;
+    font-size: small;
+    padding: 1% 6%;
+    text-align: -webkit-right;
+    width: 100%;
   }
 
   @media only screen and (min-width: 992px) and (prefers-reduced-motion: no-preference){
